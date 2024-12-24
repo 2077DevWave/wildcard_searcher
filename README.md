@@ -171,6 +171,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - Bash documentation
 - Shell scripting community
 - Stack Overflow contributors
-
----
-*Last Updated: [Date]*
