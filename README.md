@@ -26,21 +26,21 @@ wget https://github.com/2077DevWave/wildcard_searcher/releases/download/V1/my.sh
 
 2. Make it executable:
 ```bash
-chmod +x my.bash
+chmod +x my.sh
 ```
 
 ## Usage
 
 Basic syntax:
 ```bash
-./my.bash <wildcard_pattern>
+./my.sh <wildcard_pattern>
 ```
 
 The pattern should be quoted to prevent premature shell expansion:
 ```bash
-./my.bash "hello*"
-./my.bash "*.txt"
-./my.bash "test?"
+./my.sh "hello*"
+./my.sh "*.txt"
+./my.sh "test?"
 ```
 
 ## Features
@@ -101,12 +101,12 @@ The pattern should be quoted to prevent premature shell expansion:
 
 1. Find all Python files:
 ```bash
-./my.bash "*.py"
+./my.sh "*.py"
 ```
 
 2. Find directories starting with "test":
 ```bash
-./my.bash "test*/"
+./my.sh "test*/"
 ```
 
 Example output:
@@ -122,7 +122,7 @@ Example output:
 
 1. **Permission Denied**
    ```bash
-   chmod +x my.bash
+   chmod +x my.sh
    ```
 
 2. **Pattern Not Working**
