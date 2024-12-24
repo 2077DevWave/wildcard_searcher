@@ -21,7 +21,7 @@ This script searches for files and directories that match a given wildcard patte
 
 1. Download the script:
 ```bash
-wget https://example.com/my.bash
+wget https://github.com/2077DevWave/wildcard_searcher/releases/download/V1/my.sh
 ```
 
 2. Make it executable:
